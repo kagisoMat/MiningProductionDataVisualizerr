@@ -13,7 +13,6 @@ describe('UploadSection Component', () => {
       />
     );
 
-    // Check if the "Upload CSV" button is in the document
-    expect(screen.getByText(/Upload CSV/i)).toBeInTheDocument();
+    expect(screen.getByText(/Upload CSV or Excel/i)).toBeInTheDocument();
   });
 });
